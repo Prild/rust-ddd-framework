@@ -1,0 +1,13 @@
+[template]
+# Files to exclude from template processing
+exclude = [
+    "cliff.toml",
+    "Cargo.lock",
+]
+
+# Files to include but skip substitution
+[template.substitutions]
+# Skip substitution for these files
+skip = [
+    "cliff.toml",
+]
